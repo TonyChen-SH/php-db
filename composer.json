@@ -12,7 +12,7 @@
     "slim/pdo": "~1.9"
   },
   "require-dev": {
-    "codeception/codeception": "^2.2.10"
+    "codeception/codeception": "2.3.*"
   },
   "autoload": {
     "psr-4": {
@@ -20,8 +20,14 @@
     }
   },
   "autoload-dev": {
-    "psr-4": {
-      "Tony\\DB\\Test\\": "tests/"
+  },
+  "repositories": [
+    {
+      "packagist": false
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
     }
-  }
+  ]
 }
