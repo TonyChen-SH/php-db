@@ -5,18 +5,15 @@
 [![Build Status](https://travis-ci.org/TonyChen-SH/php-db.svg?branch=master)](https://travis-ci.org/TonyChen-SH/php-db)
 
 ### Install
+```bash
+$ composer require tonychen/php-db
+```
+
 ```php
   // 把下面的代码片段，加入到composer.json文件里面
-  // 由于tony这个命名空间在packagist已经有人用了，我的加不进去，暂代用直连方式
   "require": {
-    "tony/php-db": "0.1"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/TonyChen-SH/php-db.git"
-    }
-  ]
+    "tonychen/php-db": "0.1"
+  }
 ```
 
 ### Usage
