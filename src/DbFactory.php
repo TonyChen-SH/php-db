@@ -24,7 +24,7 @@ class DbFactory
 
     /**
      * 获取数据库操作实例
-     * @param array $connection ['dsn'=>'mysql:host=localhost;dbname=test','user'=>'root','password'=>'12345']
+     * @param array $connection ['dsn'=>'mysql:host=localhost;dbname=test;charset=UTF-8','user'=>'root','password'=>'12345']
      * @return Database
      * @throws ConnectionException
      */
